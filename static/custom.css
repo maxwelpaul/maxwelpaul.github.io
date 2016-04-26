@@ -1,0 +1,104 @@
+/*====================
+      ALL 
+====================*/
+h1, h2, h3, h4, h5, p {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.centerimg {
+	padding-top: 30px;
+	margin: 30px auto;
+	width: 400px;
+}
+
+.centerimgdesign {
+	padding-top: 30px;
+	margin: 30px auto;
+	width: 600px;
+}
+
+.centerimg i strong {
+	text-align: center;
+	font-size: 20px;
+}
+
+/*====================
+      NAV 
+====================*/
+
+.nav-pills li a {
+	font-size: 20px;
+	color: #444;
+}
+
+.nav-pills>li.active>a {
+	background-color: #444;
+}
+
+.nav-pills>li.active>a:hover {
+	background-color: #555;
+}
+
+/*====================
+      FRONT 
+====================*/
+
+.me {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/*.me:hover {
+    cursor: pointer;
+    cursor: hand;
+}*/
+
+.fa {
+    font-size: 40px;
+    padding: 15px 15px;
+    color: white;
+}
+
+.list-inline li {
+    margin: 15px;
+    background-color: #444;
+    border-radius: 50%
+}
+
+/*====================
+      BACK 
+====================*/
+
+.back-container {
+	margin: 5% auto;
+}
+
+.project {
+	margin: 30px auto 0px auto;
+	width: 40%;
+	overflow: hidden;
+	border: 2px solid #ddd;
+	border-radius: 5%;
+}
+
+.project img {
+	width: 100%;
+}
+
+@media(max-width:979px) {
+	.project {
+		width: 60%;
+	}
+} 
+
+@media(max-width:480px) {
+	.project {
+		width: 80%;
+	}
+} 
+
+
+
+
+
